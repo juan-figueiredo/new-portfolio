@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Ada Tech</title>
+    <link rel="stylesheet" href="/Projeto Ada HTML 1/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="/img/Black and White Monochrome Tech Logo (7) (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <section id="container">
+            <img src="/Projeto Ada Tech - Portfolio/img/Black and White Monochrome Tech Logo (7).png" alt="logo" id="logo">
+            <nav>
+                <ul>
+                    <li><a href="#" class="homenav">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#login" class="login">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+          <h3>Olá, esse sou eu!</h3>
+          <h1>Juan Figueiredo</h1>
+          <h3>Eu sou <span class="multi">Desenvolvedor Front-End</span></h3>
+          <p>Como Desenvolvedor Web, minha jornada é uma fusão de criatividade e código. Transformo conceitos em experiências envolventes, navegando pela interseção da arte e tecnologia.</p>
+          <div class="social-media">
+              <a href="https://www.linkedin.com/in/juan-figueiredo-67b219284/" style="--i:10;"><i class='bx bxl-linkedin' ></i></a>
+              <a href="https://github.com/juan-figueiredo" style="--i:8;"><i class='bx bxl-github' ></i></a>
+            <a href="https://mail.google.com" style="--i:7;"><i class='bx bxl-gmail'></i></a>
+            <a href="https://www.instagram.com/" style="--i:9;"><i class='bx bxl-instagram-alt' ></i></a>
+          </div>
+          <a href="#" onclick="calc()" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+          <img src="/Projeto Ada Tech - Portfolio/img/Design sem nome (2).png" class="foto" alt="" srcset="">
+        </div>
+      </section>
+      <footer>
+          <p>Transformando ideias em realidade. © Juan Figueiredo 2023 - Todos os Direitos Reservados.</p>
+        </footer>
+
+        <a href="https://web.whatsapp.com/send?phone=5571999621783" target="_blank" class="wpp">
+          <i class="fa fa-whatsapp"></i>
+        </a>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <hr>
+
+        <form method="post" action="https://6529a5b255b137ddc83f1046.mockapi.io/api/v1/user">
+        <div id='login' class="wrapper">
+              <h1>Contato</h1>
+
+              <div class='input-box'>
+                <input name='name' type="text" placeholder='Nome' required autocomplete="off">
+                <i class='bx bxs-user'></i>
+              </div>
+
+              <div class='input-box'>
+                <input name='email' type="email" placeholder='Email' required autocomplete="off">
+                <i class='bx bxs-contact' ></i>
+              </div>
+
+              <div class='input-box'>
+                <input name='number' type="number" class='number' placeholder='WhatsApp' required autocomplete="off">
+                <i class='bx bxs-phone' ></i>
+              </div>
+
+              <div class='input-box2'>
+                <input name='text' type="text" class='mensagem' placeholder='Digite sua mensagem' required autocomplete="off">
+              </div>
+              
+              <div class="remember-forgot">
+                <label><input type="checkbox">Enviar em anonimato</label>
+              </div>
+              <input name='enviar' type='submit' class='btn'></input>
+              <div class="register-link">
+                <p>Precisa de ajuda?
+                <a href="#" class="chat">Clique para abrir o chat!</a></p>
+              </div>
+        </div>
+        </form>
+</body>
+
+</html>
